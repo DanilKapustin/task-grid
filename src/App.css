@@ -4,3 +4,12 @@ body,
     height: 100%;
     margin: 0;
 }
+.grid-container{
+    height: 400px;
+    width: 700px;
+}
+
+.grid-container > div{
+    gap: 20px;
+    background: #DAA520;    
+}
