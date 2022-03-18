@@ -4,3 +4,22 @@ body,
     height: 100%;
     margin: 0;
 }
+.grid-container{
+    height: 400px;
+    width: 700px;
+   display: grid;
+   flex-wrap: wrap;
+   gap: 20px;
+grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+}
+
+.grid-container > div{
+  background-color: #DAA520; 
+  height: 200px;
+}
+
+div:first-child,
+div:last-child,
+div:nth-child(2){
+height:100px;
+}
